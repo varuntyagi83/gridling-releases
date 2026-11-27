@@ -13,11 +13,9 @@ Every version, with its notes: [Releases](https://github.com/varuntyagi83/gridli
 ## Install
 
 1. Open the .dmg and drag Gridling into Applications.
-2. Open Gridling. macOS says it could not verify the app. Click Done.
-3. Open System Settings, then Privacy & Security. Scroll to Security and click Open Anyway next to Gridling.
-4. Click Open Anyway again and enter your Mac password. From then on Gridling opens like any other app.
+2. Open Gridling from Applications and click Open when macOS asks.
 
-macOS asks this once because Gridling is not notarized by Apple yet. In a terminal, `xattr -dr com.apple.quarantine /Applications/Gridling.app` does the same.
+Gridling is signed with a Developer ID and notarized by Apple, so macOS only asks once whether to open an app from the internet.
 
 Gridling needs macOS on Apple silicon. Claude Code and Codex run on your own claude.ai and ChatGPT sign ins.
 
